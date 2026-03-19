@@ -44,13 +44,17 @@ git clone https://github.com/fjord-themes/fjord-kitty.git --depth 1
 
 ```bash
 mkdir -p ~/.config/kitty/themes/
-cp fjord-Kitty/themes/fjord.conf ~/.config/kitty/themes/.
+cp fjord-kitty/themes/fjord.conf ~/.config/kitty/themes/.
 ```
 
 3. Add the theme to your Kitty config (`~/.config/kitty/kitty.conf`):
+```conf
+include ~/.config/kitty/themes/fjord.conf
+```
 
 
 
+4. Reload Kitty configuration with `Ctrl+Shift+F5` or restart Kitty.
 
 
 
@@ -62,10 +66,6 @@ The theme includes:
 - Optimized background and foreground colors
 - Custom selection and cursor colors
 - Enhanced readability with proper contrast ratios
-## 📸 Preview
-
-![Fjord Kitty Theme](https://github.com/fjord-theme/Fjord/blob/main/images/dash.png)
-
 
 ## 🔄 Updates
 

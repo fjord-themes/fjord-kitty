@@ -33,29 +33,19 @@ A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/
 ### Manual Installation
 
 
-1. Clone this repository:
-
-```bash
-git clone https://github.com/fjord-themes/fjord-kitty.git --depth 1
-```
-
-
-2. Copy the theme file to your Kitty themes directory:
+1. Clone the theme to your config directory:
 
 ```bash
 mkdir -p ~/.config/kitty/themes/
-cp fjord-kitty/themes/fjord.conf ~/.config/kitty/themes/.
+git clone https://github.com/fjord-themes/fjord-kitty.git --depth 1 ~/.config/kitty/themes/fjord-kitty
 ```
 
-3. Add the theme to your Kitty config (`~/.config/kitty/kitty.conf`):
+2. Add to your config (`~/.config/kitty/kitty.conf`):
 ```conf
-include ~/.config/kitty/themes/fjord.conf
+include ~/.config/kitty/themes/fjord-kitty/themes/fjord.conf
 ```
 
-
-
-4. Reload Kitty configuration with `Ctrl+Shift+F5` or restart Kitty.
-
+3. Reload Kitty with `Ctrl+Shift+F5` or restart.
 
 
 ## 🔧 Configuration

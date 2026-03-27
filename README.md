@@ -1,6 +1,6 @@
 # Fjord Theme for Kitty
 
-A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/cyan separation for the Kitty terminal emulator.
+A dusk-blue base with soft leaf-green accents, cyan selections, and crisp blue/cyan separation for the Kitty terminal emulator.
 
 ![Fjord Kitty Theme](images/kitty.png)
 

@@ -40,7 +40,7 @@ A dusk-blue base with soft leaf-green accents, cyan selections, and crisp blue/c
 
 ```bash
 mkdir -p ~/.config/kitty/themes/
-git clone https://git.jshuntley.com/fjord-theme/fjord-kitty.git --depth 1 ~/.config/kitty/themes/fjord-kitty
+git clone https://github.com/fjord-themes/fjord-kitty.git --depth 1 ~/.config/kitty/themes/fjord-kitty
 ```
 
 2. Add to your config (`~/.config/kitty/kitty.conf`):
